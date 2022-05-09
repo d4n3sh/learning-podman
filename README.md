@@ -12,6 +12,9 @@
 2. Verify podman is installed and functioning.
 
 ```bash
+$ podman -v
+podman version 4.1.0
+
 # podman run hello-world
 ...
 !... Hello Podman World ...!
