@@ -1,5 +1,5 @@
 ---
-- name: podman test
+- name: Create and run a nginx container with podman
   hosts: all
   gather_facts: yes
   tasks:

@@ -1,7 +1,7 @@
-# Simple nginx pod using ansible
+# Simple nginx container using ansible
 
 ```bash
-# ansible-playbook -i 192.168.56.100, run-nginx-pod.yml
+# ansible-playbook -i 192.168.56.100, run-nginx-container.yml
 
 # podman ps
 CONTAINER ID  IMAGE                           COMMAND               CREATED         STATUS                 PORTS                 NAMES
