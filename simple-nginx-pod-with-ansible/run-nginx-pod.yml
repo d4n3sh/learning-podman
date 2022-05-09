@@ -1,0 +1,12 @@
+---
+- name: podman test
+  hosts: all
+  gather_facts: yes
+  tasks:
+    - name: run nginx
+      containers.podman.podman_container:
+        name: nginx
+        image: docker.io/library/nginx:latest
+        state: started
+        ports:
+          - "8080:80" 
